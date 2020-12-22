@@ -1,1 +1,6 @@
+logging:
+  file.name: ./log/backend.log
+  level:
+    root: INFO
+    systems: trace
 

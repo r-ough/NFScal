@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### PDFs ###
+*.pdf
+
+### Logs ###
+log/
+
+### Static content ###
+static/

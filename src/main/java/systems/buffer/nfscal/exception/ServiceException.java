@@ -1,2 +1,7 @@
-package systems.buffer.nfscal.exception;public class ServiceException {
+package systems.buffer.nfscal.exception;
+
+public class ServiceException extends RuntimeException {
+    public ServiceException (String message) {
+        super(message);
+    }
 }

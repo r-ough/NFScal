@@ -29,7 +29,7 @@ public class PdfServiceImpl implements PdfService {
         try {
             PDDocument doc = PDDocument.load(new File(fileName));
             String text = new PDFTextStripper().getText(doc);
-            String[] entries = text.split("\r\n");
+            String[] entries = text.split("\n");
             List<CalendarEntry> formattedEntries = new ArrayList<>();
             Matcher matcher;
             for (String entry : entries) {

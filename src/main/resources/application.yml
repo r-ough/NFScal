@@ -4,3 +4,6 @@ logging:
     root: INFO
     systems: trace
 
+server:
+  port: 80
+

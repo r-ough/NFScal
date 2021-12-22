@@ -1,10 +1,12 @@
 # NFScal
 An exportable calendar for JUH NFS course 2021.
 
+**Disclaimer: Service has been discontinued.**
+
 ## Overview
 This project takes the provided PDF containing the dates for the NFS course and parses it into an iCal which is then provided publicly since noone wants to enter 44 dates manually in their calendar.
 
-## How do I use it?
+## How do I use it? 
 Simply open up your calendar of choice such as Google Calendar, Apple Calendar or Outlook and add a new calendar per URL. Enter `http://nfscal.buffer.systems` (please do type `http://`) and you should be set.
 To be more precise: 
 + Google Calendar (in browser): **More Calendars > + > via URL**
